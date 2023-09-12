@@ -31,7 +31,7 @@ The Flickr8k dataset contains a diverse range of images covering various objects
    - Implement an embedding layer to convert word indices to dense vectors.
    - Utilize the LSTM layer to capture sequential information from the embedded captions.
    - Add a dense layer with softmax activation to predict the next word in the caption.
-
+ ![model](https://github.com/itsmethahseer/Image-Captioning/assets/120078997/48785e3b-1ae3-45de-8c21-4b4570387908)
 ### Training
    - Train the LSTM model on the training set using the VGG16 feature vectors and corresponding captions.
    - Utilize categorical cross-entropy loss to measure the discrepancy between predicted and ground truth captions.
